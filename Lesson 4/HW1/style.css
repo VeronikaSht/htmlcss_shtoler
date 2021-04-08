@@ -1,0 +1,14 @@
+.black_square, .blue_square {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.black_square {
+    background-color: #000;
+}
+
+.blue_square {
+    background-color: #4682B4;
+}

@@ -1,0 +1,42 @@
+div { 
+    background-color: #696969;
+    height: 50px;
+
+}
+
+#link1 {
+    color: red;
+    position: absolute;
+}
+
+#link2 {
+    color: aqua;
+    position: absolute;
+    left: 90px;
+}
+
+#link3 {
+    position: absolute;
+    color: yellow;
+    left: 180px;
+}
+
+#link1, #link2, #link3 {
+    padding: 10px 0 0 10px;
+}
+
+#line1 {
+    left: 90px;  
+}
+
+#line2 {
+    left: 175px;  
+}
+
+#line1, #line2 {
+    position: absolute;
+    margin-top: 10px;
+    background-color: #fff;
+    height: 15px;
+    width: 1px;
+}

@@ -1,0 +1,12 @@
+sub {
+    color: blue;
+}
+
+sup {
+    color: red;
+}
+
+p + p {
+    font-style: italic;
+    font-size: 20px;
+}

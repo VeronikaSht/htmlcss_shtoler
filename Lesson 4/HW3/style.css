@@ -1,0 +1,45 @@
+div {
+    margin: 0%;
+    padding: 0%;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    
+}
+
+h3  {
+    color: red;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.left_line, .right_line {
+    width: 10px;
+    position: fixed;
+    background-color: black;
+    height: 1px;
+}
+
+.left_line {
+    left: 48%;
+}
+
+.right_line {
+    left: 51%;
+}
+
+.left_line + p {
+    position: fixed;
+    margin-top: 0%;
+    left: 49%;
+      
+}
+
+pre {
+    position: relative;
+    padding-top: 37px;
+    right: 32%;
+}
+
+
+
