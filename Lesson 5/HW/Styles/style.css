@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+}
+
+.logo {
+    padding: 37px 0px 0px 80px;
+}
+
+.menu {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 97.5px;
+    color: #1B0A42;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.buttons {
+    width: 100%;
+    margin: 30px 68px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#sign_in {
+    color: #1B0A42;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    padding: 18px 40px 0 0;
+    cursor: pointer;
+}
+
+
+#sign_up {
+    background-color: #33A2E0;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+    padding: 18px 31px;
+
+    border: none;
+    border-radius: 6px;
+
+    cursor: pointer;
+    transition: all .5s;
+}
+
+#sign_up:hover {
+    background-color: #2a8ac2;
+}
+
+/* content */
+#content {
+    display: flex;
+    flex-direction: row;
+}
+
+.info_area {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 200px;
+}
+
+.h_text {
+    margin-top: 190px;
+
+    color: #1B0A42;
+    font-size: 72px;
+    font-family: 'Ramaraja';
+    
+}
+
+.p_text {
+    margin-top: 30px;
+
+    color: #9A9A9A;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+#learn_more {
+    margin: 50px 407px 0 0;
+    padding: 18px 32px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #33A2E0;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 700;
+
+    cursor: pointer;
+    transition: all .5s;
+}
+
+#learn_more:hover {
+    background-color: #2a8ac2;
+}
+
+.img  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 131px 45px 0 0;
+}
+
+.img img {
+    height: 543px;
+}
