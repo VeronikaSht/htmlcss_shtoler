@@ -1,6 +1,5 @@
-html, body, div {
+html, body, div, p, hr {
     margin: 0;
     padding: 0;
     border: none;
-    line-height: 1;
 }
