@@ -1,4 +1,4 @@
-html, body, div, p, hr {
+html, body, div, p, hr, fieldset, span {
     margin: 0;
     padding: 0;
     border: none;

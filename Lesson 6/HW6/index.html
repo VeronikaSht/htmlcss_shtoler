@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="header">
+        <p class="header__title">Contact Manager</p>
+    </div>
+
+    <hr>
+
+    <form  class="form" id="form_id" action="">
+        <div class="form__block-left">
+
+            <p class="form__item">
+                <span class="form__text">First Name</span> 
+                <input name="first_name" type="text" size="30" required>
+            </p>
+
+            <p class="form__item">
+                <span class="form__text">Last Name</span>
+                <input name="last_name" type="text" size="30" required>
+            </p>
+
+            <p class="form__item">
+                <span>Address</span>
+                <textarea name="address" cols="32" rows="10" ></textarea>
+            </p>
+
+            <p class="form__item">
+                <span>City</span>
+                <input name="city" type="text" size="30">
+            </p>
+
+            <p class="form__item">
+                <span>State</span>
+                <select name="state">
+                    <option value="dnipro">Dnepropetrovsk</option>
+                    <option value="volyn">Volyn</option>
+                    <option value="donetsk">Donetsk</option>
+                    <option value="vinnytsia">Vinnytsia</option>
+                    <option value="zhytomyr">Zhytomyr</option>
+                    <option value="zakarpattya">Zakarpattya</option>
+                    <option value="zaporozhye">Zaporozhye</option>
+                    <option value="ivano-Frankivsk">Ivano-Frankivsk</option>
+                    <option value="kyiv">Kyiv</option>
+                    <option value="kirovograd">Kirovograd</option>
+                    <option value="luhansk">Luhansk</option>
+                    <option value="lviv">Lviv</option>
+                    <option value="mykolayivska">Mykolayivska</option>
+                    <option value="odessa">Odessa</option>
+                    <option value="poltava">Poltava</option>
+                    <option value="rivne">Rivne</option>
+                    <option value="sumy">Sumy</option>
+                    <option value="ternopil">Ternopil</option>
+                    <option value="kharkiv">Kharkiv</option>
+                    <option value="kherson">Kherson</option>
+                    <option value="khmelnytsky">Khmelnytsky</option>
+                    <option value="cherkasy">Cherkasy</option>
+                    <option value="chernihiv">Chernihiv</option>
+                    <option value="chernivtsi">Chernivtsi</option>
+                </select>
+            </p>
+
+            <p class="form__item">
+                <span>Zip</span>
+                <input name="zip" type="text" size="30">
+            </p>
+
+            <p class="form__item">
+                <span>Home Phone</span>
+                <input name="home_phone" type="text" size="10">
+            </p>
+
+            <p class="form__item">
+                <span class="form__text">Work Phone</span>
+                <input name="work_phone" type="text" size="30">
+            </p>
+
+            <p class="form__item">
+                <span>Home Phone</span>
+                <input name="home_phone" type="text" size="10">
+            </p>
+
+            <fieldset>
+            <legend>
+                <span>Website</span>
+            </legend>
+            
+            <div class="form__fieldset">
+                <p class="form__item">
+                    <span>URL</span>
+                    <input name="URL" type="text">
+                </p>
+                <p class="form__item">
+                    <span>Link Name</span>
+                    <input name="Link_name" type="text">
+                </p>
+            </div>
+            </fieldset>
+
+            <p class="form__item">
+                <span class="form__text">Email Address</span>
+                <input name="email" type="text" size="30" required>
+            </p>
+        </div>
+
+        <div class="form__block-right">
+            <p class="form__item">
+                <span>When is the best time to contact you?</span>
+                
+                <input name="contact_time" type="radio" value="morning"> Morning
+                <input name="contact_time" type="radio" value="afternoon"> Afternoon
+                <input name="contact_time" type="radio" value="evening"> Evening
+
+            </p>  
+            
+            <p class="form__item">
+                <span>What is the best way to contact you?</span>
+                <input name="contact_time" type="radio" value="morning"> Phone
+                <input name="contact_time" type="radio" value="afternoon"> Email
+                <input name="contact_time" type="radio" value="evening"> Fax
+            </p>
+            
+            <p class="form__item">
+                <span>Message</span>
+                <textarea name="address" cols="32" rows="10" ></textarea>
+            </p>
+        </div>
+    </form>
+
+    <div class="footer">
+        <input type="submit" form="form_id">
+        <input type="reset" form="form_id">
+    </div>
+
+</body>
+</html>
