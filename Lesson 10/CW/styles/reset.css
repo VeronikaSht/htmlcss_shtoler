@@ -1,0 +1,5 @@
+body, div, p, a, ul, ol, h1 {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
